@@ -5,8 +5,8 @@ body {
 }
 .container {
     margin: 50px auto;
-    padding: 20px;
-    width: 300px;
+    padding: 100px;
+    width: 1000px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
