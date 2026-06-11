@@ -25,3 +25,82 @@ img {
 a{
     font-size: 50px;
 }
+
+/* Writing Section Styles */
+.writing-header {
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.intro {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.writing-container {
+    max-width: 800px;
+    margin: 0 auto 100px;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: left; /* Manuscript style is usually left-aligned */
+}
+
+.story {
+    margin-bottom: 60px;
+}
+
+.story-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.story-author {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.story-content p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-indent: 20px; /* Traditional story paragraph indent */
+}
+
+.story-content p:first-of-type {
+    text-indent: 0; /* Don't indent the very first paragraph */
+}
+
+.story-closer {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+.story-divider {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+    margin: 60px 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
